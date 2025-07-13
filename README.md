@@ -31,6 +31,13 @@ git clone https://github.com/your-username/portfolio.git
 # Navigate into the folder
 cd portfolio
 
+
+<img width="1894" height="724" alt="Image" src="https://github.com/user-attachments/assets/54b9137d-065b-49aa-bdfa-00ba154dee86" />
+<img width="1849" height="677" alt="Image" src="https://github.com/user-attachments/assets/f4800807-94a9-4bd1-8396-9cc9948202d8" />
+<img width="1803" height="714" alt="Image" src="https://github.com/user-attachments/assets/94105b61-cb21-4d14-a387-c44d701c02d3" />
+<img width="1870" height="695" alt="Image" src="https://github.com/user-attachments/assets/a0ed5a9e-da70-48f0-92e5-e4a4527f30e1" />
+<img width="1857" height="868" alt="Image" src="https://github.com/user-attachments/assets/b2adaeb2-ee90-4637-a6c0-0d742b648b8f" />
+
 # Install dependencies (if using React/Vite)
 npm install
 
