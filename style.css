@@ -1,0 +1,166 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #4b649c;
+    color: #0e0a0a;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #111827;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav h1 {
+    color: rgb(20, 61, 63);
+    font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #966767;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #0ef;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.intro {
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 4px solid #0ef;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0ef;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00c6b3;
+}
+
+.service-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    background: #0ef;
+    color: #000;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .technical-skills,
+  .professional-skills {
+    width: 300px;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .project-gallery img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button[type="submit"] {
+  background: #0ef;
+  color: #000;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #00c6b3;
+}
+
+  
